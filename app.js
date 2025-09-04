@@ -2,7 +2,7 @@ const form = document.getElementById('ideaForm');
 const msg  = document.getElementById('msg');
 
 // Substitua pela URL do seu Web App do Apps Script
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbytiJXW31NfYQ5Ub31jltVnNqxr6gSBbQRPcKjsjDllFk3btArXqtkJrZ0bDAazNa8X/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/library/d/1JhWfO8Bcf_AD_SvrVw29UUo2kTk-HSzSy42j_ZbnfXNKbVurKVhMzP1R/2';
 
 form.addEventListener('submit', async e => {
   e.preventDefault();
@@ -30,5 +30,6 @@ form.addEventListener('submit', async e => {
     msg.style.color = '#b91c1c';
   }
 });
+
 
 
