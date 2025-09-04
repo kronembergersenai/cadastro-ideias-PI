@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Cadastro de Ideias – Projetos Integradores</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Cadastro de Ideias – Projetos Integradores</h1>
+    <nav class="responsaveis">
+      <span><strong>Instrutor:</strong> Kronemberger</span>
+      <span><strong>Téc. Educação:</strong> Marcelo Emmel</span>
+      <span><strong>Coordenador:</strong> Danilo Fagundes</span>
+      <span><strong>Pedagogo:</strong> Gisele Nortanicola</span>
+    </nav>
+  </header>
+
+  <main class="container">
+    <form id="ideaForm" class="form">
+      <label for="titulo">Título do projeto</label>
+      <input type="text" id="titulo" name="titulo" required>
+
+      <label for="aluno">Nome do aluno</label>
+      <input type="text" id="aluno" name="aluno" required>
+
+      <label for="descricao">Descrição da ideia do projeto</label>
+      <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+      <button type="submit" class="btn-submit">
+        <img src="https://img.icons8.com/ios-filled/20/ffffff/upload.png" alt="" /> Enviar
+      </button>
+    </form>
+    <div id="msg" class="message"></div>
+  </main>
+</body>
+</html>
