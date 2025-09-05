@@ -2,7 +2,7 @@ const form = document.getElementById('ideaForm');
 const msg  = document.getElementById('msg');
 
 // Substitua pela URL do seu Web App do Apps Script
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwt8LQau-LqyOdrifB11bZYW0AH0_56hTv6o6k7O6rWoNy4iRA8GbUHYTGwA_dDtGDA/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzbRAHHRYO5Jwv3eeVYT-yuWv3uvvwPX1wHv9OqNTgYQS1Ll8YCWSzHKg0aqjX6J5kx/exec';
 
 form.addEventListener('submit', async e => {
   e.preventDefault();
